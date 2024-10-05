@@ -1,0 +1,40 @@
+span{
+    height: 50px;
+    width: 75px;
+    background-color: aqua;
+    /* display: inline-block; */
+    /* float: right; */
+    
+}
+
+
+div{
+    height: 100px;
+    width: 45%;
+    background-color: yellowgreen;
+    /* clear: both; */
+}
+
+
+p{
+    background-color: chocolate;
+    width: 200px;
+    height: 100px;
+    clear: both;
+}
+
+#gridtest{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+#gridtest h3{
+    
+    color: blue;
+}
+body{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+}

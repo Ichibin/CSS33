@@ -1,0 +1,117 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 115%;
+    background-color: #EAF4F4;
+    margin: none ;
+}
+h1{
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-shadow: 1px 1px #1c25416a;
+}
+header{
+    background-color:#CCE3DE;
+    border-radius: 10px;
+}
+nav{
+    /* background-color: yellow; */
+    text-align: center;
+    background-color:  #A4C3B2;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5em;
+    width:1050px;
+} */
+#statueIMG{
+    border: none;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(128, 36, 125);
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav li{
+    list-style-type: none;
+    font-size: 1.5em;
+    flex-basis: auto;
+}
+#headDIV{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+/* div{
+    /* background-color:mediumslateblue;
+    display: block;
+    overflow: scroll;
+    height: fit-content; */
+
+/* } */ 
+footer{
+    background-color: #52b788;
+}
+main{
+    background-color:#F6FFF8;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+}
+main p{
+    flex-basis: auto;
+    
+}
+p{
+    line-height: 1.5em;
+}
+a:visited{
+    color:#1c2541 ;
+}
+a:link{
+    color:#0b132b ;
+}
+#parksDIV{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+    
+}
+
+#parksDIV>img{
+    /* border: 50px solid black; */
+    flex-basis: auto;
+    border-radius: 10px;
+}
+
+#neighDiv{
+    margin: auto;
+    display: grid;
+    grid-template-columns:50% 50%;
+    padding: 5%;
+    gap: 15px;
+    
+}
+#neighDiv>img{
+    justify-self: stretch;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
