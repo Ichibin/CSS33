@@ -1,0 +1,33 @@
+#mulBttn div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.mulBtn{
+    background-color: #d4a373;
+    width: 30%;
+    border-style: outset;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+    transition-property: background-color, border-radius;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    border-radius: 15%;
+
+}
+.mulBtn:hover{
+    cursor: pointer;
+    background-color: #eeb57c;
+    border-radius: 25%;
+
+}
+.mulBtn a{
+    text-decoration: none;
+    color: #333d29;
+    font-size: larger;
+}
+.mulImg{
+    width: 30%;
+    opacity: 0.2;
+}

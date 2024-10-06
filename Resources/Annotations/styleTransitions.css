@@ -1,0 +1,27 @@
+div{
+    background-color: greenyellow;
+    color: black;
+    line-height: 200px;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+
+    transition-property: border-radius, color, width, background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    /* transition-delay: .1s; */
+
+    
+}
+div:hover{
+    color: white;
+    width: 350px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+div:active{
+    color: black;
+    width: 150px;
+    background-color: aquamarine;
+}
