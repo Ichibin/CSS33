@@ -1,0 +1,128 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+body{
+    background-color: #FEFAE0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: fantasy;
+    color: #283618;
+}
+h2{
+    font-weight: bold;
+    color: #333d29;
+    font-size: medium;
+}
+h3{
+    font-weight: normal;
+    color: #333d29;
+    font-size: samll;
+}
+p{
+    color: black;
+    font-family: sans-serif;
+    font-size: 1em;
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+nav div{
+    display: flex;
+    width: 100%;
+    opacity: 1;
+    background-image: url("../imgs/FP.jpg");
+    background-position:top;
+    background-size:cover;
+    border-radius: 20px;
+    height: 15vw;
+    align-items: center;
+    
+    
+}
+nav li,nav a{
+    list-style-type: none;
+    text-decoration: none;
+    /* vertical-align: middle; */
+    /* border-style: groove; */
+    
+}
+nav a:hover{
+    color: #C4A484;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 100px;
+    font-family: sans-serif;
+    /* font-style: italic; */
+    font-size: 1.1em;
+    color: #333d29;
+}
+nav a:link,a:visited{
+    color: #283618;
+}
+header{
+    text-align: justify;
+    align-items: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.256) ;
+    border-radius: 20px;
+    
+}
+/* main div{
+    
+    opacity: 0.5;
+    background-position:bottom;
+    background-size:cover;
+    margin: 5px;
+    height: 300px;
+    /* border: 2px solid red; */
+    /* border-radius: 20px; */
+/* } */ 
+#gallery{
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+#gallery img{
+    border-radius: 10%;
+}
+
+header h1{
+    text-align: center;
+}
+main span{
+    font-weight: bold;
+}
+footer{
+    background-color: #dad7cd;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+/* footer a:visited, a:link{
+    color: #111d13;
+} */
+footer img{
+    width: auto;
+    height: 1em;
+}
