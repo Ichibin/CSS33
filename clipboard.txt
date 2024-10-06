@@ -31,3 +31,62 @@
     width: 30%;
     opacity: 0.2;
 }
+
+
+
+poujiopiuoiuo
+
+  background-color: #d4a373;
+    /* width: 30%;
+    height: 100px; */
+    border-style: outset;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+    transition-property: background-color, border-radius;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;   
+
+
+
+=-0=-0
+
+
+<header id="headerFP">
+        <img id="FPpage" src="./imgs/FP.jpg" alt="Picture of a fountain pen">
+        <h1>The Fountain Pen: A Timeless Instrument</h1>
+
+
+
+
+
+  <header id="headerFP">
+        <img id="FPpageimg" src="./imgs/FP.jpg" alt="Picture of a fountain pen">
+        <div id="divmajor">
+            <div id="h1Div">
+                <h1>The Fountain Pen: A Timeless Instrument</h1>
+                <h2>The fountain pen, a timeless writing instrument, has captivated writers for centuries with its smooth, fluid strokes and customizable ink colors. Its unique design, featuring a reservoir of ink and a nib, provides a truly personalized writing experience.</h2>
+            </div>
+        </div>
+
+
+    </header>
+
+
+
+
+
+
+
+
+    </header>   
+    
