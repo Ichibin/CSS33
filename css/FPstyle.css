@@ -1,4 +1,8 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
 body{
     background-color: #FEFAE0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,7 +41,7 @@ nav div{
     background-position:top;
     background-size:cover;
     border-radius: 20px;
-    height: 25vw;
+    height: 15vw;
     align-items: center;
     
     
@@ -49,6 +53,9 @@ nav li,nav a{
     /* border-style: groove; */
     
 }
+nav a:hover{
+    color: #C4A484;
+}
 
 nav ul{
     display: flex;
@@ -58,12 +65,20 @@ nav ul{
     justify-content: flex-start;
     align-items: center;
     padding-right: 100px;
-    
-    
+    font-family: sans-serif;
+    /* font-style: italic; */
+    font-size: 1.1em;
+    color: #333d29;
+}
+nav a:link,a:visited{
+    color: #283618;
 }
 header{
     text-align: justify;
     align-items: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.256) ;
+    border-radius: 20px;
+    
 }
 /* main div{
     
@@ -76,7 +91,15 @@ header{
     /* border-radius: 20px; */
 /* } */ 
 #gallery{
-
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+#gallery img{
+    border-radius: 10%;
 }
 
 header h1{
