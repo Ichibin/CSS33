@@ -1,11 +1,16 @@
-#skip{
+/* #skip{
     color: white;
     position: absolute;
     top: 0;
     left: 0;
+} */
+#skip{
+    position: absolute;
+    left: -500px;
 }
 #skip:focus{
-    display: block;
+    position: static;
+    
 }
 body{
     background-color: #FEFAE0;
