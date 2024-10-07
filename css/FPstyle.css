@@ -1,8 +1,12 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-
-
+#skip{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#skip:focus{
+    display: block;
+}
 body{
     background-color: #FEFAE0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,7 +14,7 @@ body{
 h1{
     font-family: fantasy;
     color: #283618;
-}
+}   
 h2{
     font-weight: bold;
     color: #333d29;
@@ -33,6 +37,21 @@ header{
     left: 0;
 
 }
+#mechNav div{
+    display: flex;
+    width: 100%;
+    opacity: 1;
+    background-image: url("../imgs/mech.jpg");
+    background-position:top;
+    background-size:cover;
+    border-radius: 20px;
+    height: 15vw;
+    align-items: center;
+    
+    
+    
+}
+
 nav div{
     display: flex;
     width: 100%;
@@ -101,6 +120,11 @@ header{
 #gallery img{
     border-radius: 10%;
 }
+#gallery img:nth-child(odd){
+    border-radius: 10%;
+    border: 2px dotted  #283618;
+    padding: 2px;
+}
 
 header h1{
     text-align: center;
@@ -113,12 +137,16 @@ footer{
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     font-family: monospace;
     font-size: 1.2em;
-}
+    border-radius: 10px;
 
+}
+footer{
+    line-height: 1.5em;
+}
 /* footer a:visited, a:link{
     color: #111d13;
 } */
