@@ -55,6 +55,9 @@ figure{
         grid-template-columns: 1fr 1fr;
         align-items: stretch;
     }
+    .container img{
+        border-radius: 50%;
+    }
     .container figure:last-child{
         display: inline-block;
         /* grid-area: 5/1/6/3; */
