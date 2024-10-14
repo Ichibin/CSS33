@@ -17,16 +17,17 @@ h1 {
 
 h2{
     text-align:center;
-  }
+}
 
 li{
     margin-top: 20px;
 }
 
 img{
-    border: 5px solid blue;
+    
     border-radius: 35px;
-    width: 100%;    
+    width: 90%;   
+    
 }
 
 .label{
@@ -40,7 +41,12 @@ p{
 figure{
     text-align: center;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.8em;
+    border: 5px solid green;
+    border-radius: 25%;
+    overflow: hidden;
+    
+    align-items: center;    
 }
 
 .container{
@@ -55,7 +61,7 @@ figure{
         grid-template-columns: 1fr 1fr;
         align-items: stretch;
     }
-    .container img{
+    .container figure{
         border-radius: 50%;
     }
     .container figure:last-child{
@@ -79,7 +85,7 @@ figure{
         /* border: 2px solid red;
         border-radius: 50%; */
     }
-    .container img{
+    .container figure{
         border-radius: 0;
         /* border: 2px solid gray; */
     }
@@ -94,11 +100,13 @@ figure{
 }
 
 @media screen and (prefers-color-scheme:dark){
-    body{
-        background-color: #121212;
-        color: #e5ff88;
-    }
+    
     img{
         border: 5px solid #242424;   
+    }
+    figure{
+        background-color: #4b3525;
+        color: #e5ff88;
+        border: 5px solid #4b3525;
     }
 }
